@@ -14,9 +14,7 @@
                 'hr_attendance', 'hr_timesheet_attendance',
                 'hr_recruitment', 'hr_resignation', 'event',
                 'hr_reward_warning', 'base'],
-    'external_dependencies': {
-        'python': ['pandas'],
-    },
+    
     'data': [
         'security/ir.model.access.csv',
         'report/broadfactor.xml',

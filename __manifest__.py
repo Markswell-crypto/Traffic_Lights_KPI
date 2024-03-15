@@ -1,36 +1,33 @@
 # -*- coding: utf-8 -*-
-
+###################################################################################
+#    A part of Traffic lights KPI
+#    Smoothtel Data Solutions
+#    Copyright (C) 2024-Smoothtel Data Solutions
+#    Author: Smoothtel Data Solutions 
+#
+#    This program is free software: you can modify
+#    it under the terms of the GNU General Public License (AGPL) as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+###################################################################################
 {
-    'name': "Trafic Lights KPI - HR Dashboard",
+    'name': "Traffic Lights KPI",
     'version': '16.0.1.0.1',
-    'summary': """Trafic Lights KPI - HR Dashboard""",
-    'description': """Trafic Lights KPI - HR Dashboard""",
+    'summary': """Traffic Lights KPI""",
+    'description': """Traffic Lights KPI""",
     'category': 'Generic Modules/Human Resources',
-    'author': 'Smoothtel & Data Solutions',
-    'company': 'Smoothtel & Data Solutions',
-    'maintainer': 'Smoothtel & Data Solutions',
-    'website': "https://www.openhrms.com",
-    'depends': ['hr', 'hr_holidays', 'hr_timesheet', 'hr_payroll_community',
-                'hr_attendance', 'hr_timesheet_attendance',
-                'hr_recruitment', 'hr_resignation', 'event',
-                'hr_reward_warning', 'base'],
-    
-    'data': [
-        'security/ir.model.access.csv',
-        'report/broadfactor.xml',
-        'views/dashboard_views.xml',
-    ],
-    'assets': {
-        'web.assets_backend': [
-            'hrms_dashboard/static/src/css/hrms_dashboard.css',
-            'hrms_dashboard/static/src/css/lib/nv.d3.css',
-            'hrms_dashboard/static/src/js/hrms_dashboard.js',
-            'hrms_dashboard/static/src/js/lib/d3.min.js',
-            'hrms_dashboard/static/src/xml/hrms_dashboard.xml',
-        ],
-    },
-
-    'images': ["static/description/banner.png"],
+    'author': 'Smoothtel Data Solutions',
+    'company': 'Smoothtel Data Solutions',
+    'maintainer': 'Smoothtel Data Solutions',
     'license': "AGPL-3",
     'installable': True,
     'application': True,
